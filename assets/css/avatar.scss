@@ -1,0 +1,16 @@
+/* Helpers */
+@import './sass/helpers/_variables';
+@import './sass/helpers/_mixins';
+@import './sass/helpers/animations';
+
+/* Global */
+@import './sass/pages/global-rules';
+
+/* Layout */
+@import './sass/layout/head';
+
+/* Pages */
+@import './sass/pages/homepage';
+
+/* Layout */
+@import './sass/layout/footer';

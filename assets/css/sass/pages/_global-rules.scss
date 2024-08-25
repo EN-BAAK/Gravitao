@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Raleway;
+}
+a {
+    text-decoration: none;
+}
+ul,
+ol {
+    margin: 0;
+    list-style: none;
+}
+input,
+textarea {
+    border: none;
+    outline: none;
+    &::placeholder {
+        @include prefixer(transition, 0.3s);
+    }
+    &:focus::placeholder {
+        @include opacity(0);
+    }
+}
